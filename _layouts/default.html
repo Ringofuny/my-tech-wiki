@@ -1,17 +1,28 @@
+---
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/dark.css' | relative_url }}">
-  </head>
-  <body>
-    <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    </header>
-    <section>
-      {{ content }}
-    </section>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- GitHub Pages Minimal theme の CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- あなたのダークモードCSS（必ず後に読み込む） -->
+  <link rel="stylesheet" href="{{ '/assets/css/dark.css' | relative_url }}">
+</head>
+<body>
+
+  <header>
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+
+</body>
 </html>
