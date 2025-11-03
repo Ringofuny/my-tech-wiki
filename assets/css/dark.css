@@ -1,0 +1,31 @@
+/* ダークモード (prefers-color-scheme) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111 !important;
+    color: #eee !important;
+  }
+
+  a {
+    color: #9ad1ff !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff !important;
+  }
+
+  /* header (テーマ上部のタイトル部分) */
+  header {
+    background-color: #000 !important;
+    border-color: #333 !important;
+  }
+
+  /* code や pre */
+  pre, code {
+    background-color: #1c1c1c !important;
+    color: #f1f1f1 !important;
+  }
+
+  table {
+    color: #ddd !important;
+  }
+}
