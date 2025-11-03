@@ -1,0 +1,9 @@
+@import "{{ site.theme }}";
+
+/* ダークモード */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+    color: #fff;
+  }
+}
