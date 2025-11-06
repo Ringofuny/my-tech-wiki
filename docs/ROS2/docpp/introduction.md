@@ -55,6 +55,7 @@ int main(int argc, char **argv) {
 
 - これはパッケージを作った時に大半出来上がってる
 - 新しく書くとこは以下の部分
+
 ~~~CMakelists.txt
 add_executable(hello_node src/hello_node.cpp)
 ament_target_dependencies(hello_node rclcpp)
@@ -74,6 +75,7 @@ find_package(ament_cmake REQUIRED)
 ~~~
 
 6. ### Build
+
 ~~~bash
 colcon build --symlink-install
 . install/setup.bash
