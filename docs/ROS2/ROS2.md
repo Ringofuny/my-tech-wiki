@@ -5,7 +5,7 @@
 3. [かめた](./かめた.md)
 4. [コマンド](./コマンド.md)
 5. [Intel_realsense_depth_camera_d435](./Intel_realsense_depth_camera_d435/Intel_realsense_depth_camera_d435.md)
-6. 
+6. [**CPPでやる**](docpp/do_cpp.md)
 
 ### 参考
 [ロボットプログラミングROS2入門](https://www.it-book.co.jp/books/107.html)
