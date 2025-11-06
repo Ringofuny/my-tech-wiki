@@ -28,6 +28,7 @@ cd ~/cpp_ws_src && colcon build
 - cpp_de_yarouのsrcに移動
 - ここでcppのコードを書く
 #### hello_node.cpp 
+
 ~~~cpp　
 #include "rclcpp/rclcpp.hpp"
 
