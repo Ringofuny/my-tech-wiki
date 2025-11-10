@@ -134,4 +134,3 @@ int main(int argc, char * argv[]) {
 2. micro-ros-agentを起動
 3. m5stack接続
 4. ros2のコードを実行
-
