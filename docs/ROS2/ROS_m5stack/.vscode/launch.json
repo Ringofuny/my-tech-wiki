@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ringo/my-tech-wiki/docs/ROS2/ROS_m5stack/code",
+      "program": "/Users/ringo/my-tech-wiki/docs/ROS2/ROS_m5stack/code/build/Debug/outDebug"
+    }
+  ]
+}
